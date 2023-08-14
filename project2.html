@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+    <title>Persona 5 Interface Redesign Through HCI Principles</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html" class="nav-link nav-text">HOME</a>
+            <a href="index.html#about" class="nav-link nav-text">ABOUT</a>
+            <a href="index.html#projects" class="nav-link nav-text">PROJECTS</a>
+        </div>
+    </nav>
+
+    <h2 class="white-text title-text">Persona 5 for Dyslexic Players</h2>
+    <div class="grid-description-div">
+        <div class="item">
+            <div class="title">Project Scope</div>
+            <div class="description">Two week HCI broker project</div>
+        </div>
+        <div class="item">
+            <div class="title">My Contribution</div>
+            <div class="description">Ideation, Research, <br>Interface Design</div>
+        </div>
+        <div class="item">
+            <div class="title">Team Members</div>
+            <div class="description">Celine August<br>Kasey Le<br>Jackie Chen<br>Bret Bauslaugh</div>
+        </div>
+        <div class="item">
+            <div class="title">Software</div>
+            <div class="description">Figma</div>
+        </div>
+    </div>
+
+    <!-- Different colour text in one line source: https://www.w3docs.com/snippets/css/how-to-create-a-multicolor-text-in-html-and-css.html#:~:text=This%20is%20the%20easiest%20way,names%20of%20your%20preferred%20colors. -->
+    <section id="about">
+        <div class="about-div">
+            <span style="color:#393939">The purpose of this research project is to </span>
+            <span style="color:#8676E9">address the accessibility challenges
+                faced by dyslexic players when interacting with Persona 5's battle interface</span>
+            <span style="color:#393939">. Dyslexia, a
+                common learning disability affecting reading and processing skills, can hinder gameplay
+                experience.</span>
+        </div>
+
+        <div>
+            <h1>What did our project entail, and how did my team and I contribute?</h1>
+            <ul>
+                <li>Our investigation delved into the role of smart-seeing & projecting, distributed cognition, and
+                    close-coupling in shaping users' experiences across diverse gaming contexts and settings.</li>
+                <li>Our research focused on the practical application of smart-seeing & projecting, distributed
+                    cognition, and close-coupling within a real-life activity, proposing solutions through HCI design
+                    guidelines.</li>
+                <li>A preliminary Design Aid Device (DeDe) was formulated, integrating concrete evidence to effectively
+                    address the effects of smart-seeing & projecting, distributed cognition, and close-coupling on the
+                    field of HCI.</li>
+            </ul>
+
+            <h1>How might we redesign Persona 5's combat screen to enhance the gaming experience for individuals with
+                dyslexia, while addressing issues of clutter, font legibility, and thematic color scheme, in order to
+                improve accessibility and user control?</h1>
+
+            <h2>1. Definitions</h2>
+            <ul>
+                <li>
+                    <span style="color:#8676E9">Distributed Cognition</span>
+                    <span style="color:#393939"> is how information is processed between a user, other users, and within
+                        the
+                        systems they are using. In the case of Persona 5, it is essentially only the communication
+                        between
+                        the player and the game world.</span>
+                </li>
+                <li>
+                    <span style="color:#8676E9">Smart-Seeing & Projection</span>
+                    <span style="color:#393939"> is when users look at external representations to project them as
+                        images
+                        and draw an understanding using internal processes. In Persona 5, the game does not showcase the
+                        enemy's health numbers but instead, uses a health bar in the shape of a heart to give the
+                        players an
+                        estimate of how much health the enemy has left.</span>
+                </li>
+                <li>
+                    <span style="color:#8676E9">Close-Coupling</span>
+                    <span style="color:#393939"> is a term for the interaction and coordination between the user and
+                        computer where
+                        the user demonstrates their intelligence through reasoning and the changing of information, and
+                        how
+                        thinking is shaped by interaction with active systems. In Persona 5 Royal, how the texts are
+                        presented in the cross menu can influence the user's ability to react to the system.</span>
+                </li>
+            </ul>
+
+            <h2>2. Research</h2>
+            <p>Dyslexia is a learning disability that affects a person's ability to read (Dorwart, n.d). It is the most
+                common learning disability and the most common reason for difficulties in reading, writing, and spelling
+                (Understood Team, 2022). Dyslexia often makes it harder for individuals to split words into their
+                component sounds, affecting decoding skills in reading and spelling. Children with dyslexia are more
+                affected by letters and digits compared to symbol strings (Ziegler et al., 2010).</p>
+
+            <p>Dyslexia's Style Guide:</p>
+            <ul>
+                <li>Use san-serif fonts so that letters appear less crowded</li>
+                <li>Increase character spacing, inter-word spacing, and spacing between lines</li>
+                <li>Use bold for emphasis instead of underline or italics as they cause crowding</li>
+                <li>Avoid using uppercase and capital letters</li>
+                <li>Avoid background patterns or pictures and distracting surroundings</li>
+                <li>Use sufficient contrast between text and background, preferably dark coloured text on light (not
+                    white as it might be too dazzling) background. Use cream or soft pastel colour</li>
+                <li>Use white space to remove clutter near text and group-related content</li>
+            </ul>
+
+            <p>Maria Redka, a web designer from InstantShift (Redka, 2019), highlighted some other UX and UI practices
+                that are helpful in addition to the above:</p>
+            <ul>
+                <li>Minimize text length</li>
+                <li>Use icons when possible</li>
+                <li>Allow customization</li>
+                <li>Use autofill and smart writing algorithms</li>
+            </ul>
+
+            <p class="purple-text"><br>Design Objective</p>
+            <p>Our design objective is to <u>increase the accessibility of Persona 5's battle interface for dyslexic
+                    people by reducing the screen clutter to enhance the quality of control between the user and the
+                    system.</u></p>
+
+            <p class="purple-text"><br>Research Question</p>
+            <p>What features can be added to Persona 5's combat screen to improve the gaming experience for people with
+                dyslexia?</p>
+
+            <p class="purple-text"><br>Individual Research Questions</p>
+            <ol>
+                <li>How does Persona 5's battle interface affect smart-seeing & projecting, close-coupling, and
+                    distributed cognition in dyslexic people?</li>
+                <li>What are some style guides and principles that help ensure that written materials consider the
+                    difficulties experienced by dyslexic people?</li>
+                <li>How can we improve Persona 5's battle interface so that dyslexic people can have a better experience
+                    in playing the game? What are the solutions that can help facilitate their ease of reading?</li>
+                <li>What are some games that have dyslexia-friendly interfaces?</li>
+            </ol>
+
+            <h2>3. Mindmap</h2>
+            <img src="images/mindmap.png" alt="Persona 5 HCI Mindmap" class="mindmap-img">
+
+            <h2>4. Proposed Solution</h2>
+            <p class="purple-text">Strategies</p>
+            <ul>
+                <li>Redesigning the cross menu.</li>
+                <li>Enhancing typeface legibility.</li>
+                <li>Optimal colour selection for button-glyphs and HUD elements.</li>
+                <li>Reinforcing text with icons to enhance smart-seeing & projecting.</li>
+                <li>Activation through Dyslexia-Friendly Mode button in settings.</li>
+            </ul>
+
+            <p class="purple-text">Implementation Steps</p>
+            <ol>
+                <li>Adding an Extra Button:
+                    <ul>
+                        <li>Introducing a Dyslexia-Friendly Mode button for users to enable.</li>
+                    </ul>
+                </li>
+                <li>Redesigned Combat Screen:
+                    <ul>
+                        <li>Upon activation, the new combat screen interface is presented.</li>
+                    </ul>
+                </li>
+                <li>Pie Menu Design:
+                    <ul>
+                        <li>Transforming the cross menu into a more efficient pie menu.</li>
+                        <li>Using the Nintendo Switch's left joystick for navigation between icons.</li>
+                        <li>Confirming choices with the A button.</li>
+                        <li>Enhanced usability for dyslexic users through icons and reduced text clutter.</li>
+                    </ul>
+                </li>
+                <li>Typeface and Color Enhancements:
+                    <ul>
+                        <li>Replacing ransom-note font with OpenDyslexic for faster information processing.</li>
+                        <li>Transitioning from light text on dark backgrounds to dark text on a white background to
+                            improve legibility.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Settings Interface</h3>
+            <div class="grid-container">
+                <div class="column1">
+                    <p>The presence of irregular shapes on the game settings page poses challenges for dyslexic people
+                        in effectively distinguishing between each option.</p>
+                </div>
+                <div class="column2">
+                    <img src="images/ori1.png" alt="original persona 5 settings screen">
+                </div>
+
+                <div class="column1">
+                    <img src="images/redesign1.png" alt="redesigned persona 5 settings screen">
+                </div>
+                <div class="column2">
+                    <p>We modified the switch button's shape to a consistent rectangle, enhancing its visual
+                        organization. Additionally, we introduced a dedicated 'Dyslexia-Friendly Mode' button to
+                        facilitate the activation of the dyslexic-friendly setting for the battle screen interface.</p>
+                </div>
+            </div>
+
+            <h3>Battle Screen Interface</h3>
+            <div class="grid-container">
+                <div class="column1">
+                    <p>The chosen typeface within the cross menu is challenging for individuals with dyslexia, impeding
+                        readability. The button-glyphs are confusing for beginner players.</p>
+                </div>
+                <div class="column2">
+                    <img src="images/ori2.png" alt="original persona 5 battle screen">
+                </div>
+
+                <div class="column1">
+                    <img src="images/redesign2.png" alt="redesigned persona 5 battle screen">
+                </div>
+                <div class="column2">
+                    <p>We opted for a pie menu implementation that exclusively employs the left joystick of the Nintendo
+                        Switch for icon navigation, with confirmation facilitated through the A button. This approach
+                        minimizes target seeking time by capitalizing on icons and mitigating text clutter.</p>
+                </div>
+            </div>
+
+            <h2>5. Resources</h2>
+            <ul>
+                <li>Dorwart, L. (n.d.). The Types of Dyslexia. Retrieved from <a href="https://www.verywellhealth.com/types-of-dyslexia-5214423">https://www.verywellhealth.com/types-of-dyslexia-5214423</a></li>
+                <li>Redka, A. (2019, April 5). UI/UX design for users with dyslexia. InstantShift. Retrieved November 23, 2022, from <a href="http://www.instantshift.com/2019/04/05/ui-ux-design-for-dyslexia-users/">http://www.instantshift.com/2019/04/05/ui-ux-design-for-dyslexia-users/</a></li>
+                <li>Team Understood. (2022, May 4). What is Dyslexia. Understood. Retrieved November 23, 2022, from <a href="https://www.understood.org/en/articles/what-is-dyslexia">https://www.understood.org/en/articles/what-is-dyslexia</a></li>
+                <li>Ziegler, J. C., Grainger, J., Dufau, S., & Pech-Georgel, C. (2010). Rapid processing of letters, digits and symbols: What purely visual-attentional deficit in developmental dyslexia? <i>Developmental Science</i>. Retrieved November 25, 2022, from <a href="https://pubmed.ncbi.nlm.nih.gov/20590718/">https://pubmed.ncbi.nlm.nih.gov/20590718/</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="rounded-social-buttons">
+            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/in/feliciawidjaja1" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="social-button youtube" href="https://www.youtube.com/@feliciaw2434" target="_blank"><i
+                    class="fab fa-youtube"></i></a>
+            <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

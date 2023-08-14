@@ -1,0 +1,142 @@
+section {
+    margin: 0 15rem 0 15rem;
+}
+
+.title-text {
+    font-family: 'PT Mono', monospace;
+    color: white;
+    width: 30rem;
+    margin-top: 8rem;
+    margin-left: 5%;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.white-text {
+    color: white;
+}
+
+.grid-description-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    width: 40%;
+    margin-left: 55rem;
+    margin-bottom: 30vh;
+    line-height: 1.5rem;
+    margin-top: -15rem;
+}
+
+.item {
+    padding: 20px;
+    border: 0px transparent;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+/* About  */
+.about-div {
+    letter-spacing: 0.05rem;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-div {
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 5rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 5rem;
+}
+
+h3 {
+    text-align: center;
+    color: #8676E9;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 4rem;
+}
+
+p, ul li, ol li {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.purple-text {
+    color: #8676E9;
+}
+
+.mindmap-img {
+    width: 100%;
+}
+
+a {
+    color: #8676E9;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 20px;
+}
+
+.column1 p, .column2 p {
+    font-size: 16px !important;
+    text-align: left;
+}
+
+.column2, .column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column2 img, .column1 img {
+    width: 35rem;
+}
+
+
+/* Project 1 - One Iota  */
+.oneiotalogo {
+    width: 100%;
+}
+
+.user-interview-h1 {
+    width: 100%;
+    font-weight: 100;
+    text-align: left;
+    align-items: center;
+    font-size: 28px;
+}
+
+.user-interview-div {
+    margin: 0 10rem;
+}
+
+.full-width {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
