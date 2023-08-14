@@ -140,3 +140,59 @@ a {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 1200px) {
+    section {
+        margin: 0 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        margin: 0 5rem;
+    }
+
+    .title-text {
+        font-size: 32px;
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .grid-description-div {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20vh;
+        margin-top: -10rem;
+    }
+
+    .item {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p, ul li, ol li {
+        font-size: 18px;
+        line-height: 1.8rem;
+    }
+
+    .user-interview-h1 {
+        font-size: 24px;
+    }
+
+    .user-interview-div {
+        margin: 0 5rem;
+    }
+
+    .full-width {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
